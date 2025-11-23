@@ -33,7 +33,5 @@
                 </Style>
             </Button.Resources>
         </Button>
-
-
     </Grid>
 </Window>
