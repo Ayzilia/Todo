@@ -15,13 +15,34 @@ using System.Windows.Shapes;
 namespace Desktop
 {
     /// <summary>
-    /// Логика взаимодействия для Main_empty.xaml
+    /// Логика взаимодействия для MainEmpty.xaml
     /// </summary>
-    public partial class Main_empty : Window
+    public partial class MainEmpty : Window
     {
-        public Main_empty()
+        public MainEmpty()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void Photo_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            MenuPanel.Visibility =
+            MenuPanel.Visibility == Visibility.Visible
+            ? Visibility.Collapsed
+            : Visibility.Visible;
+        }
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ChangeProfilePhoto_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
