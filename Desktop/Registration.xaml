@@ -26,7 +26,7 @@
                 </TransformGroup>
             </TextBox.RenderTransform>
         </TextBox>
-        <Button Content="Зарегистрироваться" HorizontalAlignment="Left" Margin="357,443,0,0" VerticalAlignment="Top" Width="391" Height="50
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Left" Margin="357,443,0,0" VerticalAlignment="Top" Width="400" Height="50
          " Background="#FF0000" Foreground="White" FontSize="22" BorderThickness="1" BorderBrush="#FF0000" Click="Button_Click_1">
             <Button.Resources>
                 <Style TargetType="Border">
