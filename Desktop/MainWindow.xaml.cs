@@ -36,7 +36,7 @@ namespace Desktop
 
             if (!Class.ValidateEmail(email))
             {
-                MessageBox.Show("некорректная почта.", "ошибка");
+                MessageBox.Show("Некорректная почта.", "ошибка");
                 return;
             }
 
