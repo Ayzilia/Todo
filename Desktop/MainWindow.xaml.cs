@@ -24,7 +24,7 @@ namespace Desktop
         public MainWindow()
         {
             InitializeComponent();
-            UR.UserRegistration("AYZILYA", "04052007", "ayzilya@gmail.com");
+            UR.UserRegistration("AYZILYA", "22122007", "ayzilya@gmail.com");
         }
 
         private void LogIn(object sender, RoutedEventArgs e)
